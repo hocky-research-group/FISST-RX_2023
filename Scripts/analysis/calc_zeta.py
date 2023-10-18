@@ -30,10 +30,9 @@ psi_indices, psi_angles = md.compute_psi(traj)
 
 arr=phi_angles
 columns_to_sum = [2, 3, 4, 5, 6]  # Indices of columns to sum
-zeta=arr[:,columns_to_sum].sum(axis=1)
+zeta=-1*arr[:,columns_to_sum].sum(axis=1) # THIS COMPUTES ZETA'
 time=traj.time/1e3
 
 outfile=outprefix+".zeta.txt"
 
 np.savetxt(outfile,np.array([time,zeta]).T)
-
