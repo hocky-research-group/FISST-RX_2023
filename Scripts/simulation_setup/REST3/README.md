@@ -1,5 +1,6 @@
-CONTAINS 7 FILES (Topology scaling script derived from the authors of Zhang et al (2023))
-https://github.com/mdlab-um/REST3_tutorial
+# CONTAINS 7 FILES 
+## (Topology scaling script derived from the authors of Zhang et al (2023))
+### https://github.com/mdlab-um/REST3_tutorial
 
 (1) "gen_lambda_kappa.py": python script to compute "lambda" and "kappa" scaling factors from solute temperature range
 
